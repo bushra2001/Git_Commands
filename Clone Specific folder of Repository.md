@@ -1,8 +1,8 @@
-#Cloning Specific Folder from Repository#
+##Cloning Specific Folder from Repository
 
-##Create and initialize your new repository:##
+###Create and initialize your new repository:
 
-`mkdir <repo>
+```mkdir <repo>
 
  cd <repo>
  
@@ -12,4 +12,4 @@
  
  echo "<**Specific folder to be cloned**>" >> .git/info/sparse-checkout
 
- git pull origin master`
+ git pull origin master
