@@ -10,7 +10,7 @@
  
  git config core.sparseCheckout true
  
- echo "<**Specific folder to be cloned**>" >> .git/info/sparse-checkout
+ echo "< Specific folder to be cloned >" >> .git/info/sparse-checkout
 
  git pull origin master
  ```
@@ -19,16 +19,13 @@
 
 ### Checking Remote Origin:
 
-``` git remote -v
-```
+``` git remote -v```
+    
 
 ### Removing Remote origin:
 
-``` git remote remove origin
-```
-
+``` git remote remove origin```
 
 ### Adding Remote origin:
 
-``` git remote add origin -f <repo>
-```
+``` git remote add origin -f <repo>```
